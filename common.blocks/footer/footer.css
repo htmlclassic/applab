@@ -60,3 +60,9 @@
     color: #555a61;
     font-size: 0.88rem;
 }
+
+@media (max-width: 492px) {
+    .footer__list {
+        flex-direction: column;
+    }
+}
