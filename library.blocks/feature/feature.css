@@ -1,0 +1,42 @@
+.feature {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-end;
+    gap: 35px;
+}
+
+.feature::before {
+    content: "";
+
+    width: 88px;
+    height: 88px;
+
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-image: url("common.blocks/app-benefits/img/1.png");
+}
+
+.feature_icon-position_top {
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.feature__content {
+    max-width: 260px;
+}
+
+.feature__title {
+    margin-bottom: 16px;
+}
+
+.feature__title_color_red {
+    color: var(--red);
+}
+
+.feature__title_color_blue {
+    color: var(--blue);
+}
+
+.feature__title_color_green {
+    color: var(--green);
+}

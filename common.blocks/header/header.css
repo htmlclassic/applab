@@ -1,0 +1,82 @@
+/* ==== HEADER ================================================================ */
+.header {
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    padding: 10px;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+
+    margin: 0 auto;
+
+    width: 100%;
+    max-width: 1170px;
+}
+
+.header__menu-button {
+    cursor: pointer;
+    z-index: 1002; /* when mobile menu shows up, this element stays under menu and can't be clicked */ 
+    
+    width: 50px;
+
+    flex-shrink: 0;
+    position: absolute;
+    visibility: hidden;
+}
+
+.header__svg-item {
+    transition: 0.5s;
+}
+
+.header__svg-item-1-active {
+    width: 9.9px;
+}
+
+.header__svg-item-active {
+    width: 100%;
+}
+
+@media (max-width: 920px) {
+    .header .logo {
+        order: 1;
+        margin: 0;
+    }
+
+    .header__menu-button {
+        visibility: visible;
+        position: static;
+    }
+
+    .header .nav {
+        display:none;
+    }
+}
+
+/* modificators change navigation to mobile version (being added via js) */
+.nav_mobile {
+    display: flex !important;  
+
+    align-items: center;
+    justify-content: center;
+
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+.nav__list_mobile {
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    width: inherit;
+    height: inherit;
+}

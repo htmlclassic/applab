@@ -1,0 +1,57 @@
+.accordion {
+    width: 100%;
+    max-width: 950px;
+
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.accordion__btn {
+    position: absolute;
+    right: 25px;
+    top: 14px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.accordion__btn:hover .a {
+    stroke: #fcae61 !important;
+}
+
+.accordion__btn_menu_opened {
+    transform: rotate(45deg);
+}
+
+.accordion__item {
+    position: relative;
+
+    transition: height 0.3s;
+
+    overflow: hidden;
+
+    width: 100%;
+    height: auto;
+    padding: 15px 50px;
+
+    background-color: #f5f7fa;
+}
+
+.accordion__title {
+    color: var(--dark-blue);
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
+.accordion__body {
+    margin-top: 36px;
+}
+
+.accordion__item_extra-padding {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.accordion__body_hidden {
+    visibility: hidden;
+}

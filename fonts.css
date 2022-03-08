@@ -1,0 +1,38 @@
+/* font-family: "Poppins"
+
+(I'm gonna use only WOFF/WOFF2 since they're well supported */
+@font-face {
+    font-family: "Poppins";
+    src: url("fonts/poppins-regular.woff2") format("woff2"),
+         url("fonts/poppins-regular.woff") format("woff");
+
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url("fonts/poppins-medium.woff2") format("woff2"),
+         url("fonts/poppins-medium.woff") format("woff");
+
+    font-weight: 500; /* medium */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url("fonts/poppins-semibold.woff2") format("woff2"),
+         url("fonts/poppins-semibold.woff") format("woff");
+
+    font-weight: 600; /* semibold */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url("fonts/poppins-bold.woff2") format("woff2"),
+         url("fonts/poppins-bold.woff") format("woff");
+
+    font-weight: bold;
+    font-style: normal;
+}

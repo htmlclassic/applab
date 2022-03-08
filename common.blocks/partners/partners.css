@@ -1,0 +1,13 @@
+.partners__title {
+    text-align: center;
+    color: var(--dark-blue);
+    margin-bottom: 52px;
+}
+
+.partners__companies {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 70px;
+}

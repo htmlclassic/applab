@@ -1,0 +1,88 @@
+@import url("fonts.css");
+@import url("mynormalize.css");
+
+@import url("library.blocks/feature/feature.css");
+@import url("library.blocks/title/title.css");
+@import url("library.blocks/button/button.css");
+@import url("library.blocks/accordion/accordion.css");
+@import url("library.blocks/logo/logo.css");
+@import url("library.blocks/nav/nav.css");
+@import url("library.blocks/switch/switch.css");
+
+@import url("common.blocks/header/header.css");
+@import url("common.blocks/intro/intro.css");
+@import url("common.blocks/partners/partners.css");
+@import url("common.blocks/features/features.css");
+@import url("common.blocks/jackpots/jackpots.css");
+@import url("common.blocks/brandnew/brandnew.css");
+@import url("common.blocks/app-benefits/app-benefits.css");
+@import url("common.blocks/built/built.css");
+@import url("common.blocks/subscription/subscription.css");
+@import url("common.blocks/clients-feedback/clients-feedback.css");
+@import url("common.blocks/faq/faq.css");
+@import url("common.blocks/download-app/download-app.css");
+@import url("common.blocks/footer/footer.css");
+
+:root {
+/* COLORS */
+    --dark-blue: #242f51;
+    --red: #f55767;
+    --blue: #2563ff;
+    --green: #40975f;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+a {
+    color: #2500f9;
+}
+
+p {
+    color:#616368;
+    line-height: 1.63;
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 600; /* semibold */
+    color: var(--dark-blue);
+}
+
+h2 {
+    font-size: 2.25rem;
+    line-height: 1.28;
+}
+
+h3 {
+    font-size: 1.25rem;
+}
+
+.main__app-benefits {
+    margin-top: 140px;
+    margin-bottom: 180px;
+}
+
+.main__clients-feedback {
+    margin-top: 156px;
+    margin-bottom: 180px;
+}
+
+.main__subscription {
+    margin-top: 40px;;
+}
+
+.main__partners {
+    margin-top: 114px;
+    margin-bottom: 140px;
+}
+
+.main__jackpots {
+    margin-top: 30px;
+}
+
+.padding {
+    padding-left: 10px;
+    padding-right: 10px;
+}

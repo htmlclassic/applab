@@ -1,0 +1,20 @@
+.faq {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 112px;
+}
+
+.faq__title,
+.faq__desc {
+    max-width: 635px;
+    text-align: center;
+}
+
+.faq__title {
+    font-size: 2.5rem;
+}
+
+.faq__desc {
+    margin: 26px 0 63px;
+}

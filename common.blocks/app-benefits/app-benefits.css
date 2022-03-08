@@ -1,0 +1,59 @@
+.app-benefits {
+    text-align: center;
+}
+
+.app-benefits__intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.app-benefits__title {
+    max-width: 435px;
+    margin-bottom: 36px;
+}
+.app-benefits__description {
+    max-width: 636px;
+    margin-bottom: 90px;
+}
+
+.app-benefits__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 93px 69px;
+    max-width: 968px;
+
+    margin: 0 auto;
+}
+
+.app-benefits__feature {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.app-benefits_bg_1::before {
+    background-image: url("img/1.png");
+}
+
+.app-benefits_bg_2::before {
+    background-image: url("img/2.png");
+}
+
+.app-benefits_bg_3::before {
+    background-image: url("img/3.png");
+}
+
+.app-benefits_bg_4::before {
+    background-image: url("img/4.png");
+}
+
+.app-benefits_bg_5::before {
+    background-image: url("img/5.png");
+}
+
+.app-benefits_bg_6::before {
+    background-image: url("img/6.png");
+}

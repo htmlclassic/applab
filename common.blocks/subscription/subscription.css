@@ -1,0 +1,89 @@
+.subscription {
+    margin-left: auto;
+    margin-right: auto;
+
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+    padding-bottom: 150px;
+    border-bottom: 1px solid #e5e6e5;
+}
+
+.subscription__title {
+    max-width: 573px;
+}
+
+.subscription__desc {
+    max-width: 638px;
+    margin-top: 25px;
+    margin-bottom: 80px;
+}
+
+.subscription__type {
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+
+.plan {
+    color: #999ca5;
+
+    width: 320px;
+    padding-bottom: 22px;
+
+    box-shadow: 0 10px 20px 2px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.4s;
+}
+
+.plan:hover {
+    box-shadow: 0 10px 20px 2px rgba(0, 0, 0, 0.2);
+    outline: 3px solid #ebebeb;
+}
+
+.subscription__plans-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.plan__intro {
+    padding-top: 70px;
+    padding-bottom: 40px;
+    background: linear-gradient(to top, #f4f7f9, #fff);
+}
+.plan__name {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: var(--dark-blue);
+    margin: 5px 0 10px;
+}
+
+.plan__price {
+    font-size: 3.75rem;
+    font-weight: 600;
+    color: var(--dark-blue);
+}
+
+.plan__sub-type {
+    font-size: 1.13rem;
+}
+
+.plan__list {
+    padding-top: 40px;
+}
+.plan__item {
+    margin-bottom: 40px;
+}
+
+.plan__link {
+    display: block;
+}
+
+.plan__button {
+    margin-bottom: 30px;
+}

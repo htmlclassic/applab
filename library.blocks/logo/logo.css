@@ -1,0 +1,17 @@
+.logo {
+    z-index: 997; /* when mobile menu shows up, this element stays under menu and can't be clicked */
+
+    display: flex;
+    align-items: center;
+
+    font-size: 1.9rem;
+    font-weight: bold;
+}
+
+.logo__first-word {
+    color: #fcae61;
+}
+
+.logo__second-word {
+    color: var(--dark-blue);
+}

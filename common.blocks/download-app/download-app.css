@@ -1,0 +1,49 @@
+.download-app {
+    border-top: 1px solid #e5e6e5;
+    padding: 120px 225px 105px;
+    background: url("img/Vector\ Smart\ Object.png") no-repeat;
+    background-position: 85% bottom;
+    background-size: 35%;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.download-app__content {
+    width: 100%;
+    max-width: 640px;
+}
+
+.download-app__title {
+    font-size: 3rem;
+}
+
+.download-app__desc {
+    margin: 35px 0 50px;
+}
+
+.download-app__buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+}
+
+.download-app__button {
+    width: 186px;
+}
+
+@media (max-width: 1142px) {
+    .download-app {
+        text-align: center;
+        background: none;
+
+        padding-left: 0;
+        padding-right: 0;
+
+        align-items: center;
+    }
+
+    .download-app__buttons {
+        justify-content: center;
+    }
+}

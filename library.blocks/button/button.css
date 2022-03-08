@@ -1,0 +1,31 @@
+.button {
+    background-color: #2500f9;
+    width: 170px;
+    height: 57px;
+    border-radius: 28px;
+    transition: background-color 0.3s;
+
+    font-size: 1rem; /* <button> has smaller font? */
+}
+
+.button:hover {
+    background-color: #fcae61;
+}
+
+.button__link:hover {
+    color: var(--dark-blue);
+}
+
+.button__link {
+    color: #fff;
+    font-weight: bold;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: inherit;
+    border-radius: inherit;
+
+    transition: color 0.3s;
+}
