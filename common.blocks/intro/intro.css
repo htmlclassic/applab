@@ -77,6 +77,17 @@
     gap: 23px;
 }
 
+@media (max-width: 910px) {
+    .intro__award-label::before, .intro__award-label::after {
+        display: none;
+    }
+
+    .intro__award-label {
+        color: #feaa25;
+        background-color: #fff;
+    }
+}
+
 @media (max-width: 767px) {
     .intro__left-col {
         width: 100%;
@@ -90,19 +101,13 @@
     .intro__right-col {
         display: none;
     }
+
+    .intro__award-label {
+        justify-content: center;
+    }
 }
 
 @media (max-width: 461px) {
-    .intro__award-label::before, .intro__award-label::after {
-        display: none;
-    }
-
-    .intro__award-label {
-        color: #feaa25;
-        background-color: #fff;
-        justify-content: center;
-    }
-
     .intro__buttons {
         justify-content: center;
     }
